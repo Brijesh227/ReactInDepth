@@ -1,0 +1,27 @@
+// Topic that usedby React:
+Babel
+fibre
+virtual DOM
+diffing algorithm
+hydration
+reconciliation
+
+-> React is a library
+
+// React Roadmap:
+    1. core of react(state, UI, Jsx)
+    2. component reusability
+    3. props
+    4. Hooks(howw to propogate changes in UI)
+
+// Additional addon with React
+    -> Router(react-router-dom)
+    -> State management 
+        Redux, Redux toolkit, Zustand, context API
+
+// After React
+    React is not a complete solution in most cases
+        -> No SEO
+        -> Browser rendering of JS
+        -> No routing
+    switch to NextJS    
