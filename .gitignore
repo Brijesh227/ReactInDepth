@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Vite build output directory
+dist/
+
+# Environment variables
+.env
+
+# Editor-specific files
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
