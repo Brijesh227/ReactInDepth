@@ -1,4 +1,4 @@
-// Topic that usedby React:
+// Topic that usedby React: https://www.youtube.com/watch?v=MPCVGFvgVEQ&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=6
 Babel
 fibre
 virtual DOM
@@ -12,7 +12,7 @@ reconciliation
     1. core of react(state, UI, Jsx)
     2. component reusability
     3. props
-    4. Hooks(howw to propogate changes in UI)
+    4. Hooks(how to propogate changes in UI)
 
 // Additional addon with React
     -> Router(react-router-dom)
@@ -25,3 +25,10 @@ reconciliation
         -> Browser rendering of JS
         -> No routing
     switch to NextJS    
+
+
+
+UseFull links:
+jsx and reactjs dom internal working: https://www.youtube.com/watch?v=kAOuj6o7Kxs&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=5
+fibre, virtual DOM and reconciliation: 
+    https://www.youtube.com/watch?v=MPCVGFvgVEQ&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&index=6
