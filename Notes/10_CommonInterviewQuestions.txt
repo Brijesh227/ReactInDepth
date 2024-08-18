@@ -15,3 +15,10 @@
     import { useState }  from 'react';
 10. How do you use advanced typescript concept like mapped types, conditional types and utility types to enforcing strong typescript in a react?
     provide practical example.
+
+// Turing
+
+1. Context api vs redux
+2. performance optimisation technique
+3. code spiltting
+4. lazy loading, React.lazy and suspense
