@@ -22,3 +22,10 @@
 2. performance optimisation technique
 3. code spiltting
 4. lazy loading, React.lazy and suspense
+
+// Other
+
+1. How to do form validation in react?
+2. What is the difference between controlled and uncontrolled components?
+3. What is HOC and when to use it?
+4. How to optimised react app other than usememo and usecallback?
