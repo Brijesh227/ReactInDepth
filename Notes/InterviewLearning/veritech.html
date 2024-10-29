@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    const date = new Date();
+    document.getElementById('date').innerText = date;
+    const displayMap = () => {
+        alert('hello map');
+    }
+    const detailPage = () => {
+        alert('hello detail');
+    }
+  </script>
+</head>
+<body>
+    <div class="box-border h-32 w-32 p-4 border-4">
+        <div class="flex flex-row"> 
+            <div class="flex flex-col">
+                <img src="./123.png" alt="not loaded"/>
+            </div>
+            <div class="flex flex-col">
+                <h2>Afghanistan</h2>
+                <h4>curency: Afghani afghani</h4>
+                <div>
+                    curent date and time:<span id="date">date</span>
+                </div>
+                <div class="flex flex-row">
+                    <div class="flex flex-col">
+                        <button onclick="displayMap">show Map</button>
+                    </div>
+                    <div class="flex flex-col">
+                        <button onclick="detailPage">Detail</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 import './App.css'
-import Debounce from './Components/Debounce/Debounce'
+import Debounce from './components/Debounce/Debounce'
 
 function App() {
   return (

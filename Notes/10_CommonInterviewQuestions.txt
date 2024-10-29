@@ -20,8 +20,8 @@
 
 1. Context api vs redux
 2. performance optimisation technique
-3. code spiltting
-4. lazy loading, React.lazy and suspense
+3. code splitting                           // https://legacy.reactjs.org/docs/code-splitting.html
+4. lazy loading, React.lazy and suspense    // https://web.dev/articles/code-splitting-suspense
 
 // Other
 
@@ -29,3 +29,7 @@
 2. What is the difference between controlled and uncontrolled components?
 3. What is HOC and when to use it?
 4. How to optimised react app other than usememo and usecallback?
+
+// Next
+
+1. csr vs ssr vs ssg vs isr
