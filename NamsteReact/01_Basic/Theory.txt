@@ -1,0 +1,8 @@
+React(react.development.js) -> core react library (memo, useRef, react algorithm)
+
+
+// to work with web (bridge btwn react and browser)
+ReactDom(react-dom.development.js) -> to handle dom operation and modify the dom (createRoot, render, hydrate)
+
+// to work with mobile
+React-native
