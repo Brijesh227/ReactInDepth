@@ -1,0 +1,74 @@
+-> We have to optimise images, minified code, compress code and remove comments before deploying code to 
+production environement
+
+-> In other terms we have to minified, budled, chunking, code splitting code before going to live.
+
+// NPM
+    -> it is not only node package manager
+    -> it is handle package management and not only doing that there
+    -> npm init -> add npm in your repository
+    -> it will create package.json file (configuration for npm)
+
+// NPX
+    -> it execute dependency code(package)
+
+// Bundler
+    -> it budles your app, it packages your app
+    -> when we have html,css.js file we need to bundle together, we need to minify and chunking together,
+        we need to cached or cleaned it for that bunlder is used.
+    -> e.g., webpack, vite, parcel
+
+// Dependency and devdependenies -> production and local use
+
+// ^ and ~
+
+    major.minor.patch
+
+    ^ -> minor update  ^1.0.2 -> 1.1    (>=1.0.2 but <2.0.0)
+    ~ -> patch update  ~1.0.2 -> 1.0.3  (>=1.0.2 but <1.1.0)
+
+// package-lock.json
+
+    -> it has exact Dependency version along with required other library(transitive dependency) to run main library
+
+// node_modules (database)
+    -> it fetch all code of all dependency from npm repository to local
+
+// Transitive dependency:
+    -> when you install parcel it has other dependency so other dependency called as transitive dependency
+
+// gitignore
+    -> always push package.json and package-lock.json to production
+
+// Parcel
+    -> dev build
+    -> Local server
+    -> HMR = hot module replacement
+    -> file Watching Algorithm = written in C++
+    -> faster build - Cache
+    -> Image optimization (Most expensive process)
+    -> Minification
+    -> Bundling
+    -> Compress
+    -> Code splitting
+    -> Differnial Bundling => supports older browser
+    -> Consistent Hashing
+    -> Diagnostics
+    -> Error handling
+    -> HTTPs
+    -> Tree Shaking - remove unused code
+    -> Different dev and prod build
+
+
+// main in package.json
+
+    -> when you build your project bundler check "main": "index.js" in package.json and start building process.
+
+// dev build vs production build:
+    dev build: 
+        npx parcel index.html
+    pro buid:
+        npx parcel build index.html
+
+// browserslist
+    -> A list of browsers for that code is supported.

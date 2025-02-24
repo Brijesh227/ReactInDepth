@@ -17,3 +17,6 @@ dist/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# parcel - specific files
+*.parcel-cache
