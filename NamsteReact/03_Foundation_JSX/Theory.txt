@@ -1,0 +1,36 @@
+// JSX
+    -> It is HTML-like or XML-like syntax.
+    -> Sytatic sugar of React.createElement() to achieve readability.
+    -> It is different than react.
+    -> It is not valid pure javascript. 
+
+// JS Engine
+    -> JS Engine only understand ECMAscript.
+
+
+// Babel - JS compiler
+// Who is responsible to convert jsx code to js Engine
+    -> Babel is responsible for that, it will transpiled jsx code to ECMAscript before reaches to JSEngine.
+    -> Parcel is manager but babel is main package.
+
+
+// JSX Syntax:
+    -> Single line => without bracket
+        e.g., <h1>hello</h1>;
+
+    -> Multiple line => Wrap into brackets
+        e.g., (<h1>
+                hello
+                </h1>)
+
+// React Functional component:
+    -> Function that return jsx
+    -> Always start with capital letter.
+
+// JSX escape data from cross site scripting
+
+    const data = api.getData(); // suppose it is malicious
+
+    <h1>
+        {data}      // attacker not pass malicious code here jsx internally care about this
+    </h1>

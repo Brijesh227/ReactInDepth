@@ -64,6 +64,8 @@ production environement
 
     -> when you build your project bundler check "main": "index.js" in package.json and start building process.
 
+// npm run start and npm start both are same. without run only works for "start" keyword(reserved by npm).
+
 // dev build vs production build:
     dev build: 
         npx parcel index.html

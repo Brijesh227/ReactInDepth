@@ -1,3 +1,4 @@
+// React.createElement => Object => when render it's become HTMLElement
 
 // create an element so it's from base library
 const heading = React.createElement("h1",   // return object
